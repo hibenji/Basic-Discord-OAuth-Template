@@ -33,7 +33,7 @@ if(session('access_token')) {
   <br>
   <section class="section">
     <div class="container">
-      <h1 class="title">Loged In!</h1>
+      <h1 class="title">Logged In!</h1>
       <br>
       <p id="txt" class="subtitle">Your username: <?php echo $_SESSION['username']; ?></p>
     </div>
